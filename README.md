@@ -53,7 +53,7 @@ Este repositório contém os seguintes testes:
 
 Maven:
   ```sh
-  mvn clean test -Dtest=SearchTest#searchWithoutResults
+  mvn clean test -Dtest=
   ```
 
 Onde, o argumento `test` ou pode ser qualquer teste implementado neste repositório.
@@ -62,7 +62,7 @@ Onde, o argumento `test` ou pode ser qualquer teste implementado neste repositó
 
 Maven:
   ```sh
-  mvn clean test -Dtest=SearchTest
+  mvn clean test -Dtest=
   ```
 Onde, o argumento `test` pode ser qualquer classe de teste implementada neste repositório.
 
