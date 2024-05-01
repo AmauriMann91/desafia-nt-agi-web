@@ -179,7 +179,8 @@ do projeto.
 ## Autor
 
 **Amauri Mann** - *Software Engineer in Test | Staff QA Engineer*
-- [GitHub](https://github.com/AmauriMann91/desafio-nt-agi-web)
+- [GitHub Temporario - Desafio](https://github.com/AmauriMann91/desafio-nt-agi-web)
+- [GitHub](https://github.com/amaurimann)
 - [Linkedin](https://www.linkedin.com/in/amauri-morais-mann-6320b7a0/)
 
 ---
