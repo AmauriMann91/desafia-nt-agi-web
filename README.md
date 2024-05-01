@@ -30,12 +30,12 @@ Refira-se às orientações abaixo para instruções sobre o download e execuç�
 
 Este repositório contém os seguintes testes:
 
-| Classe | Nome do teste | Descrição |
-|--------|---------------|-----------|
-| 01     | xx            | xx        |
-| 02     | xx            | xx        |
-| 03     | xx            | xx.       |
-| 04     | xx            | xx        |
+| Classe                | Nome do teste                   | Descrição                                                                    |
+|-----------------------|---------------------------------|------------------------------------------------------------------------------|
+| SearchTest            | isEnableSearch                  | Checks that search icon is enable.                                           |
+| SearchTest            | searchAndVerifyTheResult        | Search for a term and validate the result.                                   |
+| SearchTest            | searchWithoutResults            | Perform a no results search.                                                 |
+| SearchTest            | verifyTitlePage                 | Validates the page title.                                                    |
 
 
 | BACKLOG                                                                                                             |  
@@ -53,7 +53,7 @@ Este repositório contém os seguintes testes:
 
 Maven:
   ```sh
-  mvn clean test -Dtest=
+  mvn clean test -Dtest=SearchTest#searchWithoutResults
   ```
 
 Onde, o argumento `test` ou pode ser qualquer teste implementado neste repositório.
@@ -62,7 +62,7 @@ Onde, o argumento `test` ou pode ser qualquer teste implementado neste repositó
 
 Maven:
   ```sh
-  mvn clean test -Dtest=
+  mvn clean test -Dtest=SearchTest
   ```
 Onde, o argumento `test` pode ser qualquer classe de teste implementada neste repositório.
 
@@ -107,6 +107,40 @@ O diretório com as capturas de tela dos cenários de erros, está no seguinte c
 ## Estrutura do projeto
 
 ```
+.
+└── logs
+    └── .gitkeep
+└── src
+   └── main
+       └── java
+           ├── core
+                 └── BasePage.java
+                 └── BaseTest.java
+           ├── page
+                 └── HomePage.java
+                 └── SearchPage.java
+           │── utils
+                 └── AllureListener.java
+                 └── CsvUtil.java
+                 └── MessageAndLogs.java
+                 └── ScreenshotUtils.java
+   └── test
+       └── java
+           ├── test
+                 └── SearchTest.java
+       └── resources
+           ├── data
+                 └── search.csv
+           ├── suite
+                 └── search.xml.csv
+           ├──  allure.properties
+           ├──  logging.properties
+└── .gitignore
+└── docker-compose.yml
+└── flowchart.svg
+└── pom.xml
+└── README.md
+└── tools chain CI/CD.svg
 
 
 ```
@@ -145,7 +179,8 @@ do projeto.
 ## Autor
 
 **Amauri Mann** - *Software Engineer in Test | Staff QA Engineer*
-- [GitHub](https://github.com/AmauriMann91/desafio-nt-agi-web)
+- [GitHub Temporario - Desafio](https://github.com/AmauriMann91/desafio-nt-agi-web)
+- [GitHub](https://github.com/amaurimann)
 - [Linkedin](https://www.linkedin.com/in/amauri-morais-mann-6320b7a0/)
 
 ---
