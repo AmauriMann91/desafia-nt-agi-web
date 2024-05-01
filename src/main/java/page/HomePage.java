@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 /**
  * This class implements the method that access feature search
  *
- * @author AmauriMann97
+ * @author AmauriMann91
  */
 public class HomePage extends BasePage {
     /**
